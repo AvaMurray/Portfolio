@@ -3,20 +3,75 @@
   <head>
     <meta charset="utf-8">
     <title>Assignment 6</title>
+    <style media="screen">
+      /* body{
+        background-color: #383B53;
+        color: white;
+      } */
+
+      ol{
+        background-color: #9DD9D2;
+        padding: 30px;
+        padding-bottom: 70px;
+      }
+
+      ol li{
+        background-color: pink;
+      }
+
+      #item1{
+        background-color: lime;
+        font-family: sans-serif;
+      }
+
+      #item2{
+        background-color: red;
+        font-family: fantasy;
+      }
+
+      #item3{
+        background-color: yellow;
+        font-family: cursive;
+      }
+
+    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
     <h1>This is Assignment 6</h1>
-    <h2>Nav Menu 1</h2>
-
-    <ul style="List-style-type:none;color:green; Background-color:pink;">
-
-    <ul>
-      <li>item</li>
-      <li style="Background-color:orange;">item</li>
-      <li>item</li>
-      <li>item</li>
+    <!-- Unordered List w/ Inline Styling -->
+    <h2>Nav Menu 1 (Inline CSS)</h2>
+    <ul style="List-style-type:NONE; color:green; Background-color:magenta;">
+      <li><a href="#">item</a></li>
+      <li style="Background-color:orange;"><a href="#">Inline Styling!</a></li>
+      <li><a href="#">item</a></li>
+      <li><a href="#">item</a></li>
     </ul>
+
+<!-- Ordered List w/ Internal Styling -->
+    <h1>Nav Menu 2 (Internal CSS)</h1>
+    <ol type="I">
+      <li id="item1">
+        <a href="#">item</a>
+      </li>
+      <li id="item2">
+        <a href="#">item</a>
+      </li>
+      <li id="item3">
+        <a href="#">item</a>
+      </li>
+    </ol>
+
+
+
+    <!-- third and final list w/ External styling -->
+    <h1>Nav Menu 3 (External CSS)</h1>
+      <ul id="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">School Assignments</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
 
 
   </body>
