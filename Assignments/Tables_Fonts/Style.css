@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+body{
+  margin:0%
+}
+
+header{
+  background-color: lavender;
+  padding:30px;
+  font-family: "Staatliches", sans-serif;
+  font-size: 37px;
+}
+
+table{
+  font-family: "Uchen", serif;
+}
+
+td{
+  padding: 5px 10px;
+  font-size: 14pt;
+}
+
+th{
+  padding: 5px 10px;
+  background-color: black;
+  font-size: 18pt;
+  color: #90deb7;
+}
+
+tr{
+  background-color: lavender;
+}
+
+tr:hover{
+  background:grey;
+}
