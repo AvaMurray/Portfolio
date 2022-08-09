@@ -12,9 +12,10 @@ body{
 
 #nav-list li{
   display: inline;
+  color: white;
 }
 
 #nav-list li a:hover{
-  color: white;
+  color: lavender; 
   /* background-color: cyan; */
 }
