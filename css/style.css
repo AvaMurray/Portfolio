@@ -1,5 +1,5 @@
 body{
-  background-color: #383B53;
+  background-color: ##2d7d91;
   color: white;
 }
 
@@ -16,6 +16,6 @@ body{
 }
 
 #nav-list li a:hover{
-  color: lavender; 
+  color: lavender;
   /* background-color: cyan; */
 }
