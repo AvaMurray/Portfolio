@@ -1,0 +1,21 @@
+body{
+  background-color: darkgrey;
+}
+
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: black;
+}
+
+
+hr {
+  color: white;
+}
+
+
+a:hover {
+  color: white;
+}
