@@ -1,28 +1,28 @@
-nav{
+nav {
   background-color: yellow;
 }
 
-ul{
+ul {
   display: flex;
   justify-content: flex-end;
   padding: 0;
 }
 
-li{
+li {
   display: inline;
   padding: 10px;
 }
 
-#home{
+#home {
   margin-right: auto;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   ul{
     flex-direction: column;
     align-items: center;
   }
-  #home{
+  #home {
     margin-right: 0;
   }
 }
