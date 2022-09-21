@@ -1,8 +1,20 @@
 nav{
-  background-color: skyblue;
+  background-color: lightgreen;
 }
 
 li{
   display: inline;
   padding: 10px;
+}
+
+ul a:hover{
+  color: white;
+}
+
+ul{
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
 }
