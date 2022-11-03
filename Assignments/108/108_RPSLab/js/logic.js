@@ -99,7 +99,7 @@ function setUp() {
 
   let game = document.getElementById("game");
   game.onanimationend = function() {
-    this.classList.removed("animate");
+    this.classList.remove("animate");
   }
 
   let closers = document.querySelectorAll(".closer");
