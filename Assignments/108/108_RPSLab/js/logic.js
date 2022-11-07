@@ -65,7 +65,7 @@ function playGame(yourPick){
 
   switch(yourPick) {
     case ROCK:
-      rockleft.classList.add("selected");
+      rockLeft.classList.add("selected");
       break;
     case PAPER:
       paperLeft.classList.add("selected");
